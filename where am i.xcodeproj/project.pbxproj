@@ -15,6 +15,7 @@
 		9B2B21431D591506008EEB00 /* where_am_iTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B21421D591506008EEB00 /* where_am_iTests.swift */; };
 		9B2B214E1D591506008EEB00 /* where_am_iUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B2B214D1D591506008EEB00 /* where_am_iUITests.swift */; };
 		9B2B215C1D591537008EEB00 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9B2B215B1D591537008EEB00 /* CoreLocation.framework */; };
+		9B2B215E1D593A98008EEB00 /* Trebuchet - 2880x1800.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9B2B215D1D593A98008EEB00 /* Trebuchet - 2880x1800.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		9B2B214D1D591506008EEB00 /* where_am_iUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = where_am_iUITests.swift; sourceTree = "<group>"; };
 		9B2B214F1D591506008EEB00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B2B215B1D591537008EEB00 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		9B2B215D1D593A98008EEB00 /* Trebuchet - 2880x1800.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Trebuchet - 2880x1800.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				9B2B212D1D591506008EEB00 /* AppDelegate.swift */,
+				9B2B215D1D593A98008EEB00 /* Trebuchet - 2880x1800.jpg */,
 				9B2B212F1D591506008EEB00 /* ViewController.swift */,
 				9B2B21311D591506008EEB00 /* Main.storyboard */,
 				9B2B21341D591506008EEB00 /* Assets.xcassets */,
@@ -235,6 +238,7 @@
 			files = (
 				9B2B21381D591506008EEB00 /* LaunchScreen.storyboard in Resources */,
 				9B2B21351D591506008EEB00 /* Assets.xcassets in Resources */,
+				9B2B215E1D593A98008EEB00 /* Trebuchet - 2880x1800.jpg in Resources */,
 				9B2B21331D591506008EEB00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

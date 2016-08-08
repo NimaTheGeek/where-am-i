@@ -10,6 +10,15 @@ import UIKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
+    @IBOutlet weak var latitude: UILabel!
+    @IBOutlet weak var longitude: UILabel!
+    @IBOutlet weak var course: UILabel!
+    @IBOutlet weak var speed: UILabel!
+    @IBOutlet weak var altitude: UILabel!
+    @IBOutlet weak var nearAddress: UILabel!
+    
+    
+    
     var manager: CLLocationManager!
 
     override func viewDidLoad() {

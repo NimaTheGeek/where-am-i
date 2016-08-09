@@ -35,9 +35,23 @@ class ViewController: UIViewController, CLLocationManagerDelegate {
     }
     
     func locationManager(manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-        print(locations)
+        
+        let userLocation: CLLocation = locations[0]
+        self.latitude.text = "\(userLocation.coordinate.latitude)"
+        self.longitude.text = "\(userLocation.coordinate.longitude)"
+        self.course.text = "\(userLocation.course)"
+        self.speed.text = "\(userLocation.speed)"
+        self.altitude.text = "\(userLocation.altitude)"
+        CLGeocoder().reverseGeocodeLocation(userLocation) { (placemarks, error) -> Void in
+            
+            if let firstPlacemark = placemarks?.first where error == nil {
+                
+               // print(firstPlacemark)
+                self.nearAddress.text = "\(firstPlacemark.thoroughfare!) \n \(firstPlacemark.subAdministrativeArea!) \n \(firstPlacemark.postalCode!) \n \(firstPlacemark.country!)"
+                
+            }
+        }
     }
-
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

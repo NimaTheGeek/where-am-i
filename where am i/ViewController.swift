@@ -10,6 +10,10 @@ import UIKit
 
 class ViewController: UIViewController, CLLocationManagerDelegate {
     
+    override func shouldAutorotate() -> Bool {
+        return false
+    }
+    
     @IBOutlet weak var latitude: UILabel!
     @IBOutlet weak var longitude: UILabel!
     @IBOutlet weak var course: UILabel!
